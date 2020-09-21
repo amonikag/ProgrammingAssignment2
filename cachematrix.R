@@ -1,5 +1,5 @@
 #for cache matrix 
-akeCacheMatrix <- function(x = matrix()){
+makeCacheMatrix <- function(x = matrix()){
       inv <- NULL #initialized inverse function
       set <- function(y){ #setting inverse function
             x <<- y 
